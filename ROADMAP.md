@@ -122,7 +122,7 @@ Detail and the next releases: [docs/roadmap.md](docs/roadmap.md).
 
 | Date | Entry |
 |---|---|
-| 2026-10-26 | Windows reopen at their last size, or maximized, at any interface size (such as 150%), and Restore after a maximized restart returns to the last normal size. On GNOME Wayland, where the compositor draws no frame, windows get standard minimize, maximize and close buttons. Shared change: storytold/egui#3; checked on Linux only. |
+| 2026-10-26 | Windows reopen at their last size, or maximized, at any interface size (such as 150%), and Restore after a maximized restart returns to the last normal size. GNOME Wayland keeps PhotoCraft's own title bar; the system frame there (Preferences › Interface › System title bar) now has minimize, maximize and close buttons. Shared change: storytold/egui#3; checked on Linux only. |
 | 2026-10-17 | Object Finder classifies background by boundary coverage, retaining large enclosed foregrounds and rejecting surrounding backdrop (#6548); learned segmentation remains open (#2788) |
 | 2026-10-10 | Full re-measure against Photoshop 2026 27.11.0 (installed bundle inspected): breadth ~76%, ready ~45%, alpha. Progress docs reorganized to the craftrules standard (`parity.md` → `parity-checklist.md`, `parity-estimate.md` merged into `target-app-parity.md`). 0.6.0 released. |
 | 2026-10-09 | Remove tool, Rotate View, crop rotation; OpenRaster and Paint.NET; 39 Affinity documents in the corpus |
@@ -137,7 +137,7 @@ Detail and the next releases: [docs/roadmap.md](docs/roadmap.md).
 
 | Date | Change | Summary |
 |---|---|---|
-| 2026-10-26 | trivial | Progress log: windows reopen at their last size or maximized at any interface size; standard caption buttons on GNOME Wayland (storytold/egui#3) |
+| 2026-10-26 | trivial | Progress log: windows reopen at their last size or maximized at any interface size; caption buttons on the GNOME Wayland system frame, Preferences › Interface › System title bar (storytold/egui#3) |
 | 2026-10-17 | minor | Object Finder retains large enclosed foregrounds (#6548) |
 | 2026-10-13 | minor | Focus item 1 quoted the oracle floor as 133 of 256; it is 145 of 258 (`crates/io/tests/it/corpus.rs`, gaps.md G1). Open issues 579 → 953 (2026-10-13) |
 | 2026-10-15 | minor | Russian catalog covers every dynamic UI label the other catalogs translate |

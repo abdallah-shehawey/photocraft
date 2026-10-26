@@ -26,7 +26,7 @@ ship with the package as OFL-<family>.txt.
 The egui-icons font subset is embedded from epaint_default_fonts by crates/ui-egui/build.rs
 and registered in the native and web fallback stacks by crates/ui-egui/src/egui_fonts.rs.
 It is a subset of emoji-icon-font by John Slegers; the same upstream MIT license applies.
-Source: https://github.com/storytold/egui/tree/ba04bd7de66afaba82fd44aa235aa1d060559ee7/crates/epaint_default_fonts/fonts
+Source: https://github.com/storytold/egui/tree/69750b71a97dc4672e2fbb70863b838e6795c910/crates/epaint_default_fonts/fonts
 Original: https://github.com/jslegers/emoji-icon-font
 The following notice is reproduced verbatim from emoji-icon-font-mit-license.txt:
 
